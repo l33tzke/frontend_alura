@@ -2,18 +2,23 @@ body{
     background: #CCCCCC;
 }
 
-h1{
+#banner {
+    width: 100%;
+}
+
+h1 {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
 }
 
-em strong{
+#missao {
+    font-size: 20px;
+}
+
+em strong {
     color: red;
 }
 
-.motto{
-    font-size: 20px;
-}
