@@ -1,9 +1,11 @@
-#banner {
-    width: 100%;
+.mainBox {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titleMain {
-    padding-left: 20px;
+#banner {
+    width: 100%;
 }
 
 .about {

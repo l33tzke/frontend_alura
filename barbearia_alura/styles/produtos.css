@@ -1,29 +1,44 @@
-header {
-    background-color: #BBBBBB;
-    padding: 20px 0;
-}
-
-.box {
-    position: relative;
+.products{
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
+.products li{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+.products li:hover {
+    border-color: #C78C19;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: black;
+.products li:active {
+    border-color: green;
+}
+
+.products li:hover h2 {
+    font-size: 34px;
+}
+
+.products h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productDescription {
+    font-size: 18px;
+}
+
+.productPrice{
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
+    margin-top: 10px;
 }
