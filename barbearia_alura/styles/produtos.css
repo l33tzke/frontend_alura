@@ -1,10 +1,8 @@
-.products{
-    width: 940px;
-    margin: 0 auto;
+.products {
     padding: 50px 0;
 }
 
-.products li{
+main li{
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -16,19 +14,19 @@
     border: 2px solid black;
 }
 
-.products li:hover {
+main li:hover {
     border-color: #C78C19;
 }
 
-.products li:active {
+main li:active {
     border-color: green;
 }
 
-.products li:hover h2 {
+main li:hover h2 {
     font-size: 34px;
 }
 
-.products h2{
+main h2{
     font-size: 30px;
     font-weight: bold;
 }
@@ -41,4 +39,16 @@
     font-weight: bold;
     font-size: 22px;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("../images/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
